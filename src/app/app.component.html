@@ -1,0 +1,9 @@
+<app-toolbar></app-toolbar> <!-- for our toolbar to show -->
+<app-tasks></app-tasks>     <!-- for our tasks list to show -->
+
+<div class="add-btn">       <!-- for the add button -->
+  <button mat-fab color="primary" (click)="openDialog()">
+    <mat-icon mat-list-icon>add</mat-icon>
+  </button>
+</div>
+<router-outlet></router-outlet>
